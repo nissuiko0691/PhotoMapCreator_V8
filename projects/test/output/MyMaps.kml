@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>PhotoMap Creator Ver.8</name>
+<Style id="startStyle">
+<IconStyle>
+<scale>15.0</scale>
+<Icon>
+<href>https://nissuiko0691.github.io/mabechi/icons/start.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Style id="goalStyle">
+<IconStyle>
+<scale>15.0</scale>
+<Icon>
+<href>https://nissuiko0691.github.io/mabechi/icons/goal.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Placemark>
+<styleUrl>#startStyle</styleUrl>
+<name>No.001</name>
+<description><![CDATA[<h3>DJI_0091.JPG</h3><img src="https://nissuiko0691.github.io/mabechi/photos/DJI_0091.JPG" width="350"><br><br><b>撮影日時</b><br>2024:11:26 12:54:46<br><br><b>撮影順</b><br>1 / 10]]></description>
+<Point>
+<coordinates>139.47947927777778,36.05989708333333,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>No.002</name>
+<description><![CDATA[<h3>DJI_0092.JPG</h3><img src="https://nissuiko0691.github.io/mabechi/photos/DJI_0092.JPG" width="350"><br><br><b>撮影日時</b><br>2024:11:26 12:54:58<br><br><b>撮影順</b><br>2 / 10]]></description>
+<Point>
+<coordinates>139.4794701388889,36.059904055555556,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>No.003</name>
+<description><![CDATA[<h3>DJI_0093.JPG</h3><img src="https://nissuiko0691.github.io/mabechi/photos/DJI_0093.JPG" width="350"><br><br><b>撮影日時</b><br>2024:11:26 12:55:02<br><br><b>撮影順</b><br>3 / 10]]></description>
+<Point>
+<coordinates>139.47946941666666,36.05990436111111,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>No.004</name>
+<description><![CDATA[<h3>DJI_0094.JPG</h3><img src="https://nissuiko0691.github.io/mabechi/photos/DJI_0094.JPG" width="350"><br><br><b>撮影日時</b><br>2024:11:26 12:55:10<br><br><b>撮影順</b><br>4 / 10]]></description>
+<Point>
+<coordinates>139.47947044444444,36.05990522222222,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>No.005</name>
+<description><![CDATA[<h3>DJI_0095.JPG</h3><img src="https://nissuiko0691.github.io/mabechi/photos/DJI_0095.JPG" width="350"><br><br><b>撮影日時</b><br>2024:11:26 12:55:25<br><br><b>撮影順</b><br>5 / 10]]></description>
+<Point>
+<coordinates>139.47909780555557,36.060032138888886,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>No.006</name>
+<description><![CDATA[<h3>DJI_0096.JPG</h3><img src="https://nissuiko0691.github.io/mabechi/photos/DJI_0096.JPG" width="350"><br><br><b>撮影日時</b><br>2024:11:26 12:55:40<br><br><b>撮影順</b><br>6 / 10]]></description>
+<Point>
+<coordinates>139.47961575,36.05980908333333,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>No.007</name>
+<description><![CDATA[<h3>DJI_0097.JPG</h3><img src="https://nissuiko0691.github.io/mabechi/photos/DJI_0097.JPG" width="350"><br><br><b>撮影日時</b><br>2024:11:26 12:55:45<br><br><b>撮影順</b><br>7 / 10]]></description>
+<Point>
+<coordinates>139.47963475,36.059797499999995,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>No.008</name>
+<description><![CDATA[<h3>DJI_0098.JPG</h3><img src="https://nissuiko0691.github.io/mabechi/photos/DJI_0098.JPG" width="350"><br><br><b>撮影日時</b><br>2024:11:26 12:56:02<br><br><b>撮影順</b><br>8 / 10]]></description>
+<Point>
+<coordinates>139.47941302777778,36.05995986111111,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>No.009</name>
+<description><![CDATA[<h3>DJI_0099.JPG</h3><img src="https://nissuiko0691.github.io/mabechi/photos/DJI_0099.JPG" width="350"><br><br><b>撮影日時</b><br>2024:11:26 12:56:15<br><br><b>撮影順</b><br>9 / 10]]></description>
+<Point>
+<coordinates>139.47962747222223,36.060350666666665,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#goalStyle</styleUrl>
+<name>No.010</name>
+<description><![CDATA[<h3>DJI_0100.JPG</h3><img src="https://nissuiko0691.github.io/mabechi/photos/DJI_0100.JPG" width="350"><br><br><b>撮影日時</b><br>2024:11:26 12:56:36<br><br><b>撮影順</b><br>10 / 10]]></description>
+<Point>
+<coordinates>139.47859269444444,36.06027619444444,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>撮影ルート</name>
+<Style>
+<LineStyle>
+<color>ff0000ff</color>
+<width>4</width>
+</LineStyle>
+</Style>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>
+139.47947927777778,36.05989708333333,0
+139.4794701388889,36.059904055555556,0
+139.47946941666666,36.05990436111111,0
+139.47947044444444,36.05990522222222,0
+139.47909780555557,36.060032138888886,0
+139.47961575,36.05980908333333,0
+139.47963475,36.059797499999995,0
+139.47941302777778,36.05995986111111,0
+139.47962747222223,36.060350666666665,0
+139.47859269444444,36.06027619444444,0
+</coordinates>
+</LineString>
+</Placemark>
+</Document>
+</kml>
