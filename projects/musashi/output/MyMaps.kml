@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>PhotoMap Creator Ver.8</name>
+<Style id="startStyle">
+<IconStyle>
+<scale>15.0</scale>
+<Icon>
+<href>https://nissuiko0691.github.io/mabechi/icons/start.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Style id="goalStyle">
+<IconStyle>
+<scale>15.0</scale>
+<Icon>
+<href>https://nissuiko0691.github.io/mabechi/icons/goal.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Placemark>
+<styleUrl>#startStyle</styleUrl>
+<name>No.001</name>
+<description><![CDATA[<h3>DJI_0091.JPG</h3><img src="https://nissuiko0691.github.io/PhotoMapCreator_V8/projects/musashi/photos/DJI_0091.JPG" width="350"><br><br><b>撮影日時</b><br>2024:11:26 12:54:46<br><br><b>撮影順</b><br>1 / 42]]></description>
+<Point>
+<coordinates>139.47947927777778,36.05989708333333,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>No.002</name>
+<description><![CDATA[<h3>DJI_0092.JPG</h3><img src="https://nissuiko0691.github.io/PhotoMapCreator_V8/projects/musashi/photos/DJI_0092.JPG" width="350"><br><br><b>撮影日時</b><br>2024:11:26 12:54:58<br><br><b>撮影順</b><br>2 / 42]]></description>
+<Point>
+<coordinates>139.4794701388889,36.059904055555556,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>No.003</name>
+<description><![CDATA[<h3>DJI_0093.JPG</h3><img src="https://nissuiko0691.github.io/PhotoMapCreator_V8/projects/musashi/photos/DJI_0093.JPG" width="350"><br><br><b>撮影日時</b><br>2024:11:26 12:55:02<br><br><b>撮影順</b><br>3 / 42]]></description>
+<Point>
+<coordinates>139.47946941666666,36.05990436111111,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>No.004</name>
+<description><![CDATA[<h3>DJI_0094.JPG</h3><img src="https://nissuiko0691.github.io/PhotoMapCreator_V8/projects/musashi/photos/DJI_0094.JPG" width="350"><br><br><b>撮影日時</b><br>2024:11:26 12:55:10<br><br><b>撮影順</b><br>4 / 42]]></description>
+<Point>
+<coordinates>139.47947044444444,36.05990522222222,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>No.005</name>
+<description><![CDATA[<h3>DJI_0095.JPG</h3><img src="https://nissuiko0691.github.io/PhotoMapCreator_V8/projects/musashi/photos/DJI_0095.JPG" width="350"><br><br><b>撮影日時</b><br>2024:11:26 12:55:25<br><br><b>撮影順</b><br>5 / 42]]></description>
+<Point>
+<coordinates>139.47909780555557,36.060032138888886,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>No.006</name>
+<description><![CDATA[<h3>DJI_0096.JPG</h3><img src="https://nissuiko0691.github.io/PhotoMapCreator_V8/projects/musashi/photos/DJI_0096.JPG" width="350"><br><br><b>撮影日時</b><br>2024:11:26 12:55:40<br><br><b>撮影順</b><br>6 / 42]]></description>
+<Point>
+<coordinates>139.47961575,36.05980908333333,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>No.007</name>
+<description><![CDATA[<h3>DJI_0097.JPG</h3><img src="https://nissuiko0691.github.io/PhotoMapCreator_V8/projects/musashi/photos/DJI_0097.JPG" width="350"><br><br><b>撮影日時</b><br>2024:11:26 12:55:45<br><br><b>撮影順</b><br>7 / 42]]></description>
+<Point>
+<coordinates>139.47963475,36.059797499999995,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>No.008</name>
+<description><![CDATA[<h3>DJI_0098.JPG</h3><img src="https://nissuiko0691.github.io/PhotoMapCreator_V8/projects/musashi/photos/DJI_0098.JPG" width="350"><br><br><b>撮影日時</b><br>2024:11:26 12:56:02<br><br><b>撮影順</b><br>8 / 42]]></description>
+<Point>
+<coordinates>139.47941302777778,36.05995986111111,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>No.009</name>
+<description><![CDATA[<h3>DJI_0099.JPG</h3><img src="https://nissuiko0691.github.io/PhotoMapCreator_V8/projects/musashi/photos/DJI_0099.JPG" width="350"><br><br><b>撮影日時</b><br>2024:11:26 12:56:15<br><br><b>撮影順</b><br>9 / 42]]></description>
+<Point>
+<coordinates>139.47962747222223,36.060350666666665,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>No.010</name>
+<description><![CDATA[<h3>DJI_0100.JPG</h3><img src="https://nissuiko0691.github.io/PhotoMapCreator_V8/projects/musashi/photos/DJI_0100.JPG" width="350"><br><br><b>撮影日時</b><br>2024:11:26 12:56:36<br><br><b>撮影順</b><br>10 / 42]]></description>
+<Point>
+<coordinates>139.47859269444444,36.06027619444444,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>No.011</name>
+<description><![CDATA[<h3>DJI_0101.JPG</h3><img src="https://nissuiko0691.github.io/PhotoMapCreator_V8/projects/musashi/photos/DJI_0101.JPG" width="350"><br><br><b>撮影日時</b><br>2024:11:26 12:57:16<br><br><b>撮影順</b><br>11 / 42]]></description>
+<Point>
+<coordinates>139.47969808333335,36.05964313888889,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>No.012</name>
+<description><![CDATA[<h3>DJI_0102.JPG</h3><img src="https://nissuiko0691.github.io/PhotoMapCreator_V8/projects/musashi/photos/DJI_0102.JPG" width="350"><br><br><b>撮影日時</b><br>2024:11:26 12:57:43<br><br><b>撮影順</b><br>12 / 42]]></description>
+<Point>
+<coordinates>139.47969750000001,36.05964536111111,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>No.013</name>
+<description><![CDATA[<h3>DJI_0103.JPG</h3><img src="https://nissuiko0691.github.io/PhotoMapCreator_V8/projects/musashi/photos/DJI_0103.JPG" width="350"><br><br><b>撮影日時</b><br>2024:11:26 12:58:17<br><br><b>撮影順</b><br>13 / 42]]></description>
+<Point>
+<coordinates>139.47986133333333,36.05983280555555,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>No.014</name>
+<description><![CDATA[<h3>DJI_0104.JPG</h3><img src="https://nissuiko0691.github.io/PhotoMapCreator_V8/projects/musashi/photos/DJI_0104.JPG" width="350"><br><br><b>撮影日時</b><br>2024:11:26 12:59:21<br><br><b>撮影順</b><br>14 / 42]]></description>
+<Point>
+<coordinates>139.47949136111112,36.05980980555555,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>No.015</name>
+<description><![CDATA[<h3>DJI_0105.JPG</h3><img src="https://nissuiko0691.github.io/PhotoMapCreator_V8/projects/musashi/photos/DJI_0105.JPG" width="350"><br><br><b>撮影日時</b><br>2024:11:26 12:59:33<br><br><b>撮影順</b><br>15 / 42]]></description>
+<Point>
+<coordinates>139.47927972222223,36.059771749999996,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>No.016</name>
+<description><![CDATA[<h3>DJI_0106.JPG</h3><img src="https://nissuiko0691.github.io/PhotoMapCreator_V8/projects/musashi/photos/DJI_0106.JPG" width="350"><br><br><b>撮影日時</b><br>2024:11:26 12:59:52<br><br><b>撮影順</b><br>16 / 42]]></description>
+<Point>
+<coordinates>139.4793513611111,36.05990488888889,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>No.017</name>
+<description><![CDATA[<h3>DJI_0107.JPG</h3><img src="https://nissuiko0691.github.io/PhotoMapCreator_V8/projects/musashi/photos/DJI_0107.JPG" width="350"><br><br><b>撮影日時</b><br>2024:11:26 12:59:56<br><br><b>撮影順</b><br>17 / 42]]></description>
+<Point>
+<coordinates>139.47935033333334,36.05990519444444,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>No.018</name>
+<description><![CDATA[<h3>DJI_0108.JPG</h3><img src="https://nissuiko0691.github.io/PhotoMapCreator_V8/projects/musashi/photos/DJI_0108.JPG" width="350"><br><br><b>撮影日時</b><br>2024:11:26 12:59:58<br><br><b>撮影順</b><br>18 / 42]]></description>
+<Point>
+<coordinates>139.47934941666668,36.05990577777777,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>No.019</name>
+<description><![CDATA[<h3>DJI_0109.JPG</h3><img src="https://nissuiko0691.github.io/PhotoMapCreator_V8/projects/musashi/photos/DJI_0109.JPG" width="350"><br><br><b>撮影日時</b><br>2024:11:26 13:00:10<br><br><b>撮影順</b><br>19 / 42]]></description>
+<Point>
+<coordinates>139.47967533333335,36.05969483333333,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>No.020</name>
+<description><![CDATA[<h3>DJI_0110.JPG</h3><img src="https://nissuiko0691.github.io/PhotoMapCreator_V8/projects/musashi/photos/DJI_0110.JPG" width="350"><br><br><b>撮影日時</b><br>2024:11:26 13:00:49<br><br><b>撮影順</b><br>20 / 42]]></description>
+<Point>
+<coordinates>139.479248,36.06003372222222,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>No.021</name>
+<description><![CDATA[<h3>DJI_0111.JPG</h3><img src="https://nissuiko0691.github.io/PhotoMapCreator_V8/projects/musashi/photos/DJI_0111.JPG" width="350"><br><br><b>撮影日時</b><br>2024:11:26 13:01:12<br><br><b>撮影順</b><br>21 / 42]]></description>
+<Point>
+<coordinates>139.4788922777778,36.060373194444445,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>No.022</name>
+<description><![CDATA[<h3>DJI_0112.JPG</h3><img src="https://nissuiko0691.github.io/PhotoMapCreator_V8/projects/musashi/photos/DJI_0112.JPG" width="350"><br><br><b>撮影日時</b><br>2024:11:26 13:01:25<br><br><b>撮影順</b><br>22 / 42]]></description>
+<Point>
+<coordinates>139.47890858333332,36.06035541666667,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>No.023</name>
+<description><![CDATA[<h3>DJI_0113.JPG</h3><img src="https://nissuiko0691.github.io/PhotoMapCreator_V8/projects/musashi/photos/DJI_0113.JPG" width="350"><br><br><b>撮影日時</b><br>2024:11:26 13:01:41<br><br><b>撮影順</b><br>23 / 42]]></description>
+<Point>
+<coordinates>139.47893761111112,36.06030616666666,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>No.024</name>
+<description><![CDATA[<h3>DJI_0114.JPG</h3><img src="https://nissuiko0691.github.io/PhotoMapCreator_V8/projects/musashi/photos/DJI_0114.JPG" width="350"><br><br><b>撮影日時</b><br>2024:11:26 13:02:04<br><br><b>撮影順</b><br>24 / 42]]></description>
+<Point>
+<coordinates>139.47908927777777,36.06012666666666,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>No.025</name>
+<description><![CDATA[<h3>DJI_0115.JPG</h3><img src="https://nissuiko0691.github.io/PhotoMapCreator_V8/projects/musashi/photos/DJI_0115.JPG" width="350"><br><br><b>撮影日時</b><br>2024:11:26 13:02:16<br><br><b>撮影順</b><br>25 / 42]]></description>
+<Point>
+<coordinates>139.47912825,36.06006358333333,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>No.026</name>
+<description><![CDATA[<h3>DJI_0116.JPG</h3><img src="https://nissuiko0691.github.io/PhotoMapCreator_V8/projects/musashi/photos/DJI_0116.JPG" width="350"><br><br><b>撮影日時</b><br>2024:11:26 13:02:31<br><br><b>撮影順</b><br>26 / 42]]></description>
+<Point>
+<coordinates>139.47912350000001,36.06006305555555,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>No.027</name>
+<description><![CDATA[<h3>DJI_0117.JPG</h3><img src="https://nissuiko0691.github.io/PhotoMapCreator_V8/projects/musashi/photos/DJI_0117.JPG" width="350"><br><br><b>撮影日時</b><br>2024:11:26 13:02:34<br><br><b>撮影順</b><br>27 / 42]]></description>
+<Point>
+<coordinates>139.47912305555556,36.06006347222222,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>No.028</name>
+<description><![CDATA[<h3>DJI_0118.JPG</h3><img src="https://nissuiko0691.github.io/PhotoMapCreator_V8/projects/musashi/photos/DJI_0118.JPG" width="350"><br><br><b>撮影日時</b><br>2024:11:26 13:02:51<br><br><b>撮影順</b><br>28 / 42]]></description>
+<Point>
+<coordinates>139.47921975,36.060136138888886,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>No.029</name>
+<description><![CDATA[<h3>DJI_0119.JPG</h3><img src="https://nissuiko0691.github.io/PhotoMapCreator_V8/projects/musashi/photos/DJI_0119.JPG" width="350"><br><br><b>撮影日時</b><br>2024:11:26 13:02:57<br><br><b>撮影順</b><br>29 / 42]]></description>
+<Point>
+<coordinates>139.47915316666666,36.060231916666666,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>No.030</name>
+<description><![CDATA[<h3>DJI_0120.JPG</h3><img src="https://nissuiko0691.github.io/PhotoMapCreator_V8/projects/musashi/photos/DJI_0120.JPG" width="350"><br><br><b>撮影日時</b><br>2024:11:26 13:03:05<br><br><b>撮影順</b><br>30 / 42]]></description>
+<Point>
+<coordinates>139.47904505555556,36.06037758333333,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>No.031</name>
+<description><![CDATA[<h3>DJI_0121.JPG</h3><img src="https://nissuiko0691.github.io/PhotoMapCreator_V8/projects/musashi/photos/DJI_0121.JPG" width="350"><br><br><b>撮影日時</b><br>2024:11:26 13:03:18<br><br><b>撮影順</b><br>31 / 42]]></description>
+<Point>
+<coordinates>139.47886019444445,36.060207416666664,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>No.032</name>
+<description><![CDATA[<h3>DJI_0122.JPG</h3><img src="https://nissuiko0691.github.io/PhotoMapCreator_V8/projects/musashi/photos/DJI_0122.JPG" width="350"><br><br><b>撮影日時</b><br>2024:11:26 13:03:24<br><br><b>撮影順</b><br>32 / 42]]></description>
+<Point>
+<coordinates>139.47902680555555,36.060081805555555,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>No.033</name>
+<description><![CDATA[<h3>DJI_0123.JPG</h3><img src="https://nissuiko0691.github.io/PhotoMapCreator_V8/projects/musashi/photos/DJI_0123.JPG" width="350"><br><br><b>撮影日時</b><br>2024:11:26 13:03:31<br><br><b>撮影順</b><br>33 / 42]]></description>
+<Point>
+<coordinates>139.47919044444444,36.05997466666666,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>No.034</name>
+<description><![CDATA[<h3>DJI_0124.JPG</h3><img src="https://nissuiko0691.github.io/PhotoMapCreator_V8/projects/musashi/photos/DJI_0124.JPG" width="350"><br><br><b>撮影日時</b><br>2024:11:26 13:04:16<br><br><b>撮影順</b><br>34 / 42]]></description>
+<Point>
+<coordinates>139.4787567777778,36.06061775,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>No.035</name>
+<description><![CDATA[<h3>DJI_0125.JPG</h3><img src="https://nissuiko0691.github.io/PhotoMapCreator_V8/projects/musashi/photos/DJI_0125.JPG" width="350"><br><br><b>撮影日時</b><br>2024:11:26 13:04:19<br><br><b>撮影順</b><br>35 / 42]]></description>
+<Point>
+<coordinates>139.47875686111112,36.06061808333333,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>No.036</name>
+<description><![CDATA[<h3>DJI_0126.JPG</h3><img src="https://nissuiko0691.github.io/PhotoMapCreator_V8/projects/musashi/photos/DJI_0126.JPG" width="350"><br><br><b>撮影日時</b><br>2024:11:26 13:04:25<br><br><b>撮影順</b><br>36 / 42]]></description>
+<Point>
+<coordinates>139.47870747222223,36.06057883333333,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>No.037</name>
+<description><![CDATA[<h3>DJI_0127.JPG</h3><img src="https://nissuiko0691.github.io/PhotoMapCreator_V8/projects/musashi/photos/DJI_0127.JPG" width="350"><br><br><b>撮影日時</b><br>2024:11:26 13:04:48<br><br><b>撮影順</b><br>37 / 42]]></description>
+<Point>
+<coordinates>139.4773808888889,36.060458555555556,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>No.038</name>
+<description><![CDATA[<h3>DJI_0128.JPG</h3><img src="https://nissuiko0691.github.io/PhotoMapCreator_V8/projects/musashi/photos/DJI_0128.JPG" width="350"><br><br><b>撮影日時</b><br>2024:11:26 13:05:04<br><br><b>撮影順</b><br>38 / 42]]></description>
+<Point>
+<coordinates>139.47729361111112,36.060465666666666,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>No.039</name>
+<description><![CDATA[<h3>DJI_0129.JPG</h3><img src="https://nissuiko0691.github.io/PhotoMapCreator_V8/projects/musashi/photos/DJI_0129.JPG" width="350"><br><br><b>撮影日時</b><br>2024:11:26 13:05:07<br><br><b>撮影順</b><br>39 / 42]]></description>
+<Point>
+<coordinates>139.47729297222222,36.060465888888885,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>No.040</name>
+<description><![CDATA[<h3>DJI_0130.JPG</h3><img src="https://nissuiko0691.github.io/PhotoMapCreator_V8/projects/musashi/photos/DJI_0130.JPG" width="350"><br><br><b>撮影日時</b><br>2024:11:26 13:05:11<br><br><b>撮影順</b><br>40 / 42]]></description>
+<Point>
+<coordinates>139.4772925277778,36.06046608333333,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>No.041</name>
+<description><![CDATA[<h3>DJI_0131.JPG</h3><img src="https://nissuiko0691.github.io/PhotoMapCreator_V8/projects/musashi/photos/DJI_0131.JPG" width="350"><br><br><b>撮影日時</b><br>2024:11:26 13:05:13<br><br><b>撮影順</b><br>41 / 42]]></description>
+<Point>
+<coordinates>139.47729247222222,36.06046608333333,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#goalStyle</styleUrl>
+<name>No.042</name>
+<description><![CDATA[<h3>DJI_0132.JPG</h3><img src="https://nissuiko0691.github.io/PhotoMapCreator_V8/projects/musashi/photos/DJI_0132.JPG" width="350"><br><br><b>撮影日時</b><br>2024:11:26 13:05:22<br><br><b>撮影順</b><br>42 / 42]]></description>
+<Point>
+<coordinates>139.47729269444446,36.060466749999996,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>撮影ルート</name>
+<Style>
+<LineStyle>
+<color>ff0000ff</color>
+<width>4</width>
+</LineStyle>
+</Style>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>
+139.47947927777778,36.05989708333333,0
+139.4794701388889,36.059904055555556,0
+139.47946941666666,36.05990436111111,0
+139.47947044444444,36.05990522222222,0
+139.47909780555557,36.060032138888886,0
+139.47961575,36.05980908333333,0
+139.47963475,36.059797499999995,0
+139.47941302777778,36.05995986111111,0
+139.47962747222223,36.060350666666665,0
+139.47859269444444,36.06027619444444,0
+139.47969808333335,36.05964313888889,0
+139.47969750000001,36.05964536111111,0
+139.47986133333333,36.05983280555555,0
+139.47949136111112,36.05980980555555,0
+139.47927972222223,36.059771749999996,0
+139.4793513611111,36.05990488888889,0
+139.47935033333334,36.05990519444444,0
+139.47934941666668,36.05990577777777,0
+139.47967533333335,36.05969483333333,0
+139.479248,36.06003372222222,0
+139.4788922777778,36.060373194444445,0
+139.47890858333332,36.06035541666667,0
+139.47893761111112,36.06030616666666,0
+139.47908927777777,36.06012666666666,0
+139.47912825,36.06006358333333,0
+139.47912350000001,36.06006305555555,0
+139.47912305555556,36.06006347222222,0
+139.47921975,36.060136138888886,0
+139.47915316666666,36.060231916666666,0
+139.47904505555556,36.06037758333333,0
+139.47886019444445,36.060207416666664,0
+139.47902680555555,36.060081805555555,0
+139.47919044444444,36.05997466666666,0
+139.4787567777778,36.06061775,0
+139.47875686111112,36.06061808333333,0
+139.47870747222223,36.06057883333333,0
+139.4773808888889,36.060458555555556,0
+139.47729361111112,36.060465666666666,0
+139.47729297222222,36.060465888888885,0
+139.4772925277778,36.06046608333333,0
+139.47729247222222,36.06046608333333,0
+139.47729269444446,36.060466749999996,0
+</coordinates>
+</LineString>
+</Placemark>
+</Document>
+</kml>

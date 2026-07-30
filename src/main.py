@@ -90,6 +90,8 @@ def main():
 
     photo_list = []
 
+    project_name = project.name
+
     for index, photo in enumerate(photos, start=1):
 
         info = exif.read(photo)
@@ -111,7 +113,9 @@ def main():
         )
 
         data.photo_url = (
-            f"https://nissuiko0691.github.io/mabechi/photos/{photo.name}"
+            f"https://nissuiko0691.github.io/"
+            f"PhotoMapCreator_V8/projects/"
+            f"{project_name}/photos/{photo.name}"
         )
 
         print(data.photo_url)
