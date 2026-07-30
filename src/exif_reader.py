@@ -48,7 +48,6 @@ class ExifReader:
                 result["gps"] = gps
 
 
-
             return result
 
         except Exception:
