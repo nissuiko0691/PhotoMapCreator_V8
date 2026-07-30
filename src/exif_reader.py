@@ -34,6 +34,8 @@ class ExifReader:
 
             result["tags"] = tags
 
+            print("GPS情報 =", gps)
+
             if "DateTimeOriginal" in tags:
                 result["datetime"] = str(tags["DateTimeOriginal"])
 
@@ -46,6 +48,7 @@ class ExifReader:
                     gps[GPSTAGS.get(key, key)] = value
 
                 result["gps"] = gps
+
 
             return result
 
