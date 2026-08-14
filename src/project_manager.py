@@ -41,10 +41,6 @@ class ProjectManager:
 
         (project / "output").mkdir(exist_ok=True)
 
-        (project / "report").mkdir(exist_ok=True)
-
-        (project / "icons").mkdir(exist_ok=True)
-
         return project
 
     # -----------------------------------------

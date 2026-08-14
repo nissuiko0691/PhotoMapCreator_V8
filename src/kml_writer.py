@@ -1,4 +1,5 @@
 from pathlib import Path
+from config import BASE_URL
 
 
 class KMLWriter:
@@ -15,6 +16,8 @@ class KMLWriter:
 
         total = len(photo_list)
 
+        project_name = self.project_dir.name
+
         with open(kml_file, "w", encoding="utf-8") as f:
 
             # XMLヘッダー
@@ -27,7 +30,9 @@ class KMLWriter:
             f.write("<IconStyle>\n")
             f.write("<scale>15.0</scale>\n")
             f.write("<Icon>\n")
-            f.write("<href>https://nissuiko0691.github.io/mabechi/icons/start.png</href>\n")
+            f.write(
+                f"<href>{BASE_URL}/icons/start.png</href>\n"
+            )
             f.write("</Icon>\n")
             f.write("</IconStyle>\n")
             f.write("</Style>\n")
@@ -36,7 +41,9 @@ class KMLWriter:
             f.write("<IconStyle>\n")
             f.write("<scale>15.0</scale>\n")
             f.write("<Icon>\n")
-            f.write("<href>https://nissuiko0691.github.io/mabechi/icons/goal.png</href>\n")
+            f.write(
+                f"<href>{BASE_URL}/icons/goal.png</href>\n"
+            )
             f.write("</Icon>\n")
             f.write("</IconStyle>\n")
             f.write("</Style>\n")

@@ -1,4 +1,5 @@
 from pathlib import Path
+import sys
 
 from project_manager import ProjectManager
 from photo_reader import PhotoReader
@@ -7,18 +8,21 @@ from gps_util import GPSUtil
 from kml_writer import KMLWriter
 from photo_data import PhotoData
 from csv_writer import CSVWriter
+from html_writer import HtmlWriter
+from photo_sheet_writer import PhotoSheetWriter
+from config import BASE_URL
+
 
 def main():
-
-    print("=" * 35)
-    print("PhotoMap Creator Ver.7.5")
-    print("=" * 35)
 
     # ---------------------------------
     # プロジェクト管理
     # ---------------------------------
 
-    root = Path(__file__).resolve().parent.parent
+    if getattr(sys, "frozen", False):
+        root = Path(sys.executable).resolve().parent
+    else:
+        root = Path(__file__).resolve().parent.parent
 
     pm = ProjectManager(root)
 
@@ -42,6 +46,7 @@ def main():
     choice = input("番号または新しいプロジェクト名：").strip()
 
     project = None
+
 
     if choice.isdigit():
 
@@ -113,8 +118,7 @@ def main():
         )
 
         data.photo_url = (
-            f"https://nissuiko0691.github.io/"
-            f"PhotoMapCreator_V8/projects/"
+            f"{BASE_URL}/projects/"
             f"{project_name}/photos/{photo.name}"
         )
 
@@ -153,8 +157,12 @@ def main():
     print(csv_file)
 
     print()
-    print("Ver.7.5 完了")
+    print("Ver.8 完了")
 
+    html_writer = HtmlWriter(project)
+    html_writer.write(photo_list)
+    sheet_writer = PhotoSheetWriter(project)
+    sheet_writer.write(photo_list)       
 
 if __name__ == "__main__":
     main()
