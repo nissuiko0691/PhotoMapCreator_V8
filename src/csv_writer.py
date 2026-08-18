@@ -22,9 +22,11 @@ class CSVWriter:
 
             writer = csv.writer(f)
 
-            # Google My Maps 用ヘッダー
+            # Google My Maps / QGIS 用ヘッダー
             writer.writerow([
                 "名前",
+                "写真ファイル",
+                "図面",
                 "緯度",
                 "経度",
                 "説明"
@@ -43,7 +45,9 @@ class CSVWriter:
                 description += f"撮影順：{photo.order}"
 
                 writer.writerow([
+                    f"No.{photo.order:03}",
                     photo.name,
+                    "",                     # 図面
                     photo.lat,
                     photo.lon,
                     description
