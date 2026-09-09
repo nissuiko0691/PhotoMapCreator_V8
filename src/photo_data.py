@@ -15,6 +15,13 @@ class PhotoData:
     lat: Optional[float]
     lon: Optional[float]
 
+    # 撮影方向
+    # 0°   = 北
+    # 90°  = 東
+    # 180° = 南
+    # 270° = 西
+    direction: Optional[float] = None
+
     photo_url: str = ""
 
     order: int = 0
