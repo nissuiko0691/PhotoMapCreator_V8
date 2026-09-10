@@ -1,5 +1,7 @@
 from pathlib import Path
 
+from config import BASE_URL
+
 
 class KMLWriter:
 
@@ -47,8 +49,11 @@ class KMLWriter:
         ]
 
         index = int(
-            (direction + 22.5)
-            / 45
+            (
+                direction
+                + 22.5
+            )
+            // 45
         ) % 8
 
         return directions[index]
@@ -82,8 +87,11 @@ class KMLWriter:
         ]
 
         index = int(
-            (direction + 22.5)
-            / 45
+            (
+                direction
+                + 22.5
+            )
+            // 45
         ) % 8
 
         return arrows[index]
@@ -107,12 +115,12 @@ class KMLWriter:
         # ==============================================
 
         route = [
-            p
-            for p in photo_list
+            photo
+            for photo in photo_list
             if (
-                p.lat is not None
+                photo.lat is not None
                 and
-                p.lon is not None
+                photo.lon is not None
             )
         ]
 
@@ -125,7 +133,7 @@ class KMLWriter:
         ) as f:
 
             # ==========================================
-            # KMLヘッダー
+            # XMLヘッダー
             # ==========================================
 
             f.write(
@@ -153,16 +161,36 @@ class KMLWriter:
             # ==========================================
 
             f.write(
-                '<Style id="startStyle">'
-                '<IconStyle>'
-                '<scale>1.2</scale>'
-                '<Icon>'
-                '<href>'
-                'https://nissuiko0691.github.io/'
-                'mabechi/icons/start.png'
-                '</href>'
-                '</Icon>'
-                '</IconStyle>'
+                '<Style id="startStyle">\n'
+            )
+
+            f.write(
+                '<IconStyle>\n'
+            )
+
+            f.write(
+                '<scale>1.2</scale>\n'
+            )
+
+            f.write(
+                '<Icon>\n'
+            )
+
+            f.write(
+                f'<href>'
+                f'{BASE_URL}/icons/start.png'
+                f'</href>\n'
+            )
+
+            f.write(
+                '</Icon>\n'
+            )
+
+            f.write(
+                '</IconStyle>\n'
+            )
+
+            f.write(
                 '</Style>\n'
             )
 
@@ -171,16 +199,36 @@ class KMLWriter:
             # ==========================================
 
             f.write(
-                '<Style id="goalStyle">'
-                '<IconStyle>'
-                '<scale>1.2</scale>'
-                '<Icon>'
-                '<href>'
-                'https://nissuiko0691.github.io/'
-                'mabechi/icons/goal.png'
-                '</href>'
-                '</Icon>'
-                '</IconStyle>'
+                '<Style id="goalStyle">\n'
+            )
+
+            f.write(
+                '<IconStyle>\n'
+            )
+
+            f.write(
+                '<scale>1.2</scale>\n'
+            )
+
+            f.write(
+                '<Icon>\n'
+            )
+
+            f.write(
+                f'<href>'
+                f'{BASE_URL}/icons/goal.png'
+                f'</href>\n'
+            )
+
+            f.write(
+                '</Icon>\n'
+            )
+
+            f.write(
+                '</IconStyle>\n'
+            )
+
+            f.write(
                 '</Style>\n'
             )
 
@@ -188,17 +236,20 @@ class KMLWriter:
             # 写真ポイント
             # ==========================================
 
-            for photo in route:
+            for route_index, photo in enumerate(
+                route,
+                start=1
+            ):
 
                 f.write(
                     "<Placemark>\n"
                 )
 
                 # --------------------------------------
-                # START / GOAL
+                # START / GOAL アイコン
                 # --------------------------------------
 
-                if photo.order == 1:
+                if route_index == 1:
 
                     f.write(
                         "<styleUrl>"
@@ -206,7 +257,7 @@ class KMLWriter:
                         "</styleUrl>\n"
                     )
 
-                elif photo.order == total:
+                elif route_index == total:
 
                     f.write(
                         "<styleUrl>"
@@ -337,6 +388,10 @@ class KMLWriter:
                     f"{photo.order} / {total}"
                 )
 
+                # --------------------------------------
+                # description終了
+                # --------------------------------------
+
                 f.write(
                     "]]>"
                     "</description>\n"
@@ -373,13 +428,13 @@ class KMLWriter:
             if len(route) >= 2:
 
                 f.write(
-                    "<Placemark>"
+                    "<Placemark>\n"
                 )
 
                 f.write(
                     "<name>"
                     "撮影ルート"
-                    "</name>"
+                    "</name>\n"
                 )
 
                 f.write(
@@ -392,14 +447,20 @@ class KMLWriter:
                     "4"
                     "</width>"
                     "</LineStyle>"
-                    "</Style>"
+                    "</Style>\n"
                 )
 
                 f.write(
-                    "<LineString>"
+                    "<LineString>\n"
+                )
+
+                f.write(
                     "<tessellate>"
                     "1"
-                    "</tessellate>"
+                    "</tessellate>\n"
+                )
+
+                f.write(
                     "<coordinates>\n"
                 )
 
@@ -412,13 +473,19 @@ class KMLWriter:
                     )
 
                 f.write(
-                    "</coordinates>"
-                    "</LineString>"
+                    "</coordinates>\n"
+                )
+
+                f.write(
+                    "</LineString>\n"
+                )
+
+                f.write(
                     "</Placemark>\n"
                 )
 
             # ==========================================
-            # 終了
+            # KML終了
             # ==========================================
 
             f.write(
